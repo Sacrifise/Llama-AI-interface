@@ -7,6 +7,7 @@ export default function Chat() {
     return ( 
         <div>
             <div className='chat-cont'>
+                <div className='message'>Hello</div>
                 {console.log(messages)}
                 {messages.map((el) => <Message text={el}/>)}
             </div>
