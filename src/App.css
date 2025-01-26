@@ -46,7 +46,19 @@
   align-items: center;
   height: 50vh;
   max-width: 50vw;
+  overflow-y:scroll ;
 }
+
+.chat-cont::-webkit-scrollbar {
+   display: none; /* браузеры Safari и Chrome */ 
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+  }
+.chat-cont::-webkit-scrollbar
+
+.сhat-cont{
+   -ms-overflow-style: none; /* IE и Edge */ scrollbar-width: none; /* Mozilla */ 
+  }
 
 .logo {
   height: 6em;
