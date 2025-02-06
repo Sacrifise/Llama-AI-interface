@@ -54,8 +54,6 @@
    scrollbar-width: none;
    -ms-overflow-style: none;
   }
-.chat-cont::-webkit-scrollbar
-
 .сhat-cont{
    -ms-overflow-style: none; /* IE и Edge */ scrollbar-width: none; /* Mozilla */ 
   }
