@@ -1,6 +1,4 @@
 import React from 'react'
-import "./message.css"
-
 import Markdown from 'react-markdown';
 
 export default function Message(props) {

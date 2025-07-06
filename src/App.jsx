@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Message from './message.jsx'
-import Chat from './chat.jsx'
+import Chat from './Chat.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
