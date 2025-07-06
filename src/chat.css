@@ -1,0 +1,15 @@
+.loading{
+    align-self: flex-start !important;
+    margin: 5px;
+    animation: start alternate 1s 1;
+}
+@keyframes start {
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
